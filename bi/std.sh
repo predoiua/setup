@@ -15,9 +15,12 @@ sudo apt-get install -y tomcat7-admin
 
 sudo apt-get install -y default-jdk
 
-#edit ~/.bashrc
+#edit ~/.bashrc_custom
 #export JAVA_HOME=/usr/lib/jvm/default-java
 #export CATALINA_HOME=/usr/share/tomcat7
+#Only for ubuntu 13.10 + gui
+#export UBUNTU_MENUPROXY=0
+#export JAR_REPO=~/git_predoiua/bi/lib/java
 
 sudo apt-get install -y ant
 #export JAVA_TOOL_OPTIONS=-Dfile.encoding=ISO8859-1
