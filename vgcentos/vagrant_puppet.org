@@ -1,0 +1,10 @@
+
+* Create a testing environment
+- Check existing boxes
+
+vagrant box list
+vagrant box add centos-6.5-puppet http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-puppet.box
+vagrant init centos-6.5-puppet
+
+
+yum groupinstall "Desktop" "Desktop Platform" "X Window System" "Fonts"
